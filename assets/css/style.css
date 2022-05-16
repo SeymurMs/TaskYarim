@@ -1,0 +1,53 @@
+    .navigation {
+        display: flex;
+        width: 1366px;
+        margin: auto;
+        padding: 30px;
+        background: #5c7fa7;
+    }
+    
+    .icon-phone {
+        font-size: 50px;
+        color: rgb(255, 255, 255);
+    }
+    
+    .navigation .phone-shop {
+        font-size: 32px;
+        color: white;
+        font-weight: 600;
+        padding-left: 20px;
+        padding-top: 2px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    .basket_shop {
+        cursor: pointer;
+        margin-left: 1000px;
+    }
+    
+    .basket_shop i {
+        color: white;
+        font-size: 24px;
+        font-size: 40px;
+    }
+    
+    main .allPhones {
+        width: 1100px;
+        border-radius: 15px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    main .allPhones .phone {
+        display: inline-block;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+    
+    main .allPhones .phone .card-body .add-basket {
+        cursor: pointer;
+    }
+   
